@@ -52,20 +52,19 @@
 	"buffers":
 	[
 		{
-			"file": "main.lua",
+			"file": "Map.lua",
 			"settings":
 			{
-				"buffer_size": 25,
+				"buffer_size": 67,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "BackdoorQuest.sublime-project",
+			"file": "main.lua",
 			"settings":
 			{
-				"buffer_size": 45,
-				"encoding": "UTF-8",
+				"buffer_size": 115,
 				"line_ending": "Unix"
 			}
 		}
@@ -110,11 +109,15 @@
 		"selected_items":
 		[
 			[
-				"set synt lua l",
+				"set synt lua lo",
 				"Set Syntax: Lua (Love)"
 			],
 			[
-				"set synt lua lo",
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set synt lua l",
 				"Set Syntax: Lua (Love)"
 			]
 		],
@@ -141,12 +144,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest"
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest",
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources",
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources/images",
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources/images/static"
 	],
 	"file_history":
 	[
-		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/conf.lua",
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/main.lua",
+		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/libraries/classic.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/main.lua",
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/BackdoorQuest.sublime-project",
+		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/conf.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/player.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/enemy.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/bullet.lua",
@@ -156,7 +165,6 @@
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/rectangle.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/shape.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/libraries/tick.lua",
-		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/libraries/classic.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/tick.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/classic.lua",
 		"/home/anglain/Storage/Coding/Love_Projects/SheepolutionTutorial/example.lua",
@@ -208,65 +216,65 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.lua",
+					"file": "Map.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25,
+						"buffer_size": 67,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								67,
+								67
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"syntax": "Packages/Lua/Lua.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "BackdoorQuest.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								45
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Lua Love/LuaLove.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"syntax": "Packages/Lua Love/LuaLove.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -324,6 +332,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"mai",
+				"main.lua"
+			],
 			[
 				"main",
 				"main.lua"
