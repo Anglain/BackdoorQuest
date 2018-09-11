@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="bq_mainTileset" tilewidth="128" tileheight="128" tilecount="25" columns="0">
+<tileset name="bq_mainTileset" tilewidth="64" tileheight="64" tilecount="18" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
- <tile id="0">
-  <image width="64" height="128" source="../resources/images/static/2x1tree01.png"/>
- </tile>
- <tile id="1">
-  <image width="128" height="64" source="../resources/images/static/2x1tree02.png"/>
- </tile>
- <tile id="2">
-  <image width="128" height="128" source="../resources/images/static/2x2tree01.png"/>
- </tile>
  <tile id="3">
   <image width="64" height="64" source="../resources/images/static/autoban.png"/>
  </tile>
@@ -46,12 +37,6 @@
  <tile id="14">
   <image width="64" height="64" source="../resources/images/static/tree02.png"/>
  </tile>
- <tile id="15">
-  <image width="64" height="96" source="../resources/images/static/wall01.png"/>
- </tile>
- <tile id="16">
-  <image width="64" height="96" source="../resources/images/static/wall02.png"/>
- </tile>
  <tile id="17">
   <image width="64" height="64" source="../resources/images/static/zomby.png"/>
  </tile>
@@ -66,12 +51,6 @@
  </tile>
  <tile id="22">
   <image width="64" height="64" source="../resources/images/interactable/durian.png"/>
- </tile>
- <tile id="23">
-  <image width="128" height="128" source="../resources/images/interactable/gate01.png"/>
- </tile>
- <tile id="24">
-  <image width="128" height="128" source="../resources/images/interactable/gate02.png"/>
  </tile>
  <tile id="25">
   <image width="64" height="64" source="../resources/images/interactable/thorns.png"/>

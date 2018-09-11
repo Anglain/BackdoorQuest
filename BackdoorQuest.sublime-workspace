@@ -65,6 +65,7 @@
 			"settings":
 			{
 				"buffer_size": 115,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -144,10 +145,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest",
-		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources",
-		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources/images",
-		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest/resources/images/static"
+		"/home/anglain/Storage/Coding/Love_Projects/BackdoorQuest"
 	],
 	"file_history":
 	[
@@ -216,7 +214,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -245,7 +243,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -274,7 +272,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
